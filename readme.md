@@ -16,7 +16,7 @@
 - Executing `arc package` will generate `sam.json` so you can look though
   the cloudformation. This helped figure out the GSI issue
 
-- Secondary indexes are named after the primary key followed by `-index`. The following GSI's would be be `owner-name-index` and `email-index`
+- Secondary indexes are named with the following pattern `PARTIION_KEY-SORT_KEY-index`. The following GSI's would be be `owner-name-index` and `email-index`. Index name overridding is currently an open issue. https://github.com/architect/package/pull/92
 
 ```
 @tables
