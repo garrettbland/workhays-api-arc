@@ -9,6 +9,9 @@
 
 ## Deployment
 
+- Deploy to staging `arc deploy`
+- Deploy to production `arc deploy --production`
+
 ### Notes
 
 - After adding/updating `app.arc`, run `arc init`. This will initiate and build your new resources. This command is meant to be used & reused.

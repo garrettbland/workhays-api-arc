@@ -18,6 +18,7 @@ workhays
   pk *String
   sk **String
   TTL TTL
+  stream true
 
 @indexes
 workhays
